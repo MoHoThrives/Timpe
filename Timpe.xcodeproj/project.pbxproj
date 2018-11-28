@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4B7B88B21AF121C009968BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B7B88A21AF121C009968BA /* AppDelegate.swift */; };
+		A4B7B88D21AF121C009968BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B7B88C21AF121C009968BA /* ViewController.swift */; };
+		A4B7B89021AF121C009968BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B7B88E21AF121C009968BA /* Main.storyboard */; };
+		A4B7B89221AF121E009968BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B7B89121AF121E009968BA /* Assets.xcassets */; };
+		A4B7B89521AF121E009968BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B7B89321AF121E009968BA /* LaunchScreen.storyboard */; };
+		A4B7B8A021AF121E009968BA /* TimpeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B7B89F21AF121E009968BA /* TimpeTests.swift */; };
+		A4B7B8AB21AF121E009968BA /* TimpeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B7B8AA21AF121E009968BA /* TimpeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4B7B89C21AF121E009968BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4B7B87F21AF121C009968BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B7B88621AF121C009968BA;
+			remoteInfo = Timpe;
+		};
+		A4B7B8A721AF121E009968BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4B7B87F21AF121C009968BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B7B88621AF121C009968BA;
+			remoteInfo = Timpe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4B7B88721AF121C009968BA /* Timpe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timpe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B7B88A21AF121C009968BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4B7B88C21AF121C009968BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4B7B88F21AF121C009968BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4B7B89121AF121E009968BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4B7B89421AF121E009968BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4B7B89621AF121E009968BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B7B89B21AF121E009968BA /* TimpeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimpeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B7B89F21AF121E009968BA /* TimpeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimpeTests.swift; sourceTree = "<group>"; };
+		A4B7B8A121AF121E009968BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B7B8A621AF121E009968BA /* TimpeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimpeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B7B8AA21AF121E009968BA /* TimpeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimpeUITests.swift; sourceTree = "<group>"; };
+		A4B7B8AC21AF121E009968BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4B7B88421AF121C009968BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B7B89821AF121E009968BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B7B8A321AF121E009968BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4B7B87E21AF121C009968BA = {
+			isa = PBXGroup;
+			children = (
+				A4B7B88921AF121C009968BA /* Timpe */,
+				A4B7B89E21AF121E009968BA /* TimpeTests */,
+				A4B7B8A921AF121E009968BA /* TimpeUITests */,
+				A4B7B88821AF121C009968BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4B7B88821AF121C009968BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B7B88721AF121C009968BA /* Timpe.app */,
+				A4B7B89B21AF121E009968BA /* TimpeTests.xctest */,
+				A4B7B8A621AF121E009968BA /* TimpeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B7B88921AF121C009968BA /* Timpe */ = {
+			isa = PBXGroup;
+			children = (
+				A4B7B88A21AF121C009968BA /* AppDelegate.swift */,
+				A4B7B88C21AF121C009968BA /* ViewController.swift */,
+				A4B7B88E21AF121C009968BA /* Main.storyboard */,
+				A4B7B89121AF121E009968BA /* Assets.xcassets */,
+				A4B7B89321AF121E009968BA /* LaunchScreen.storyboard */,
+				A4B7B89621AF121E009968BA /* Info.plist */,
+			);
+			path = Timpe;
+			sourceTree = "<group>";
+		};
+		A4B7B89E21AF121E009968BA /* TimpeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4B7B89F21AF121E009968BA /* TimpeTests.swift */,
+				A4B7B8A121AF121E009968BA /* Info.plist */,
+			);
+			path = TimpeTests;
+			sourceTree = "<group>";
+		};
+		A4B7B8A921AF121E009968BA /* TimpeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4B7B8AA21AF121E009968BA /* TimpeUITests.swift */,
+				A4B7B8AC21AF121E009968BA /* Info.plist */,
+			);
+			path = TimpeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4B7B88621AF121C009968BA /* Timpe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B7B8AF21AF121E009968BA /* Build configuration list for PBXNativeTarget "Timpe" */;
+			buildPhases = (
+				A4B7B88321AF121C009968BA /* Sources */,
+				A4B7B88421AF121C009968BA /* Frameworks */,
+				A4B7B88521AF121C009968BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timpe;
+			productName = Timpe;
+			productReference = A4B7B88721AF121C009968BA /* Timpe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4B7B89A21AF121E009968BA /* TimpeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B7B8B221AF121E009968BA /* Build configuration list for PBXNativeTarget "TimpeTests" */;
+			buildPhases = (
+				A4B7B89721AF121E009968BA /* Sources */,
+				A4B7B89821AF121E009968BA /* Frameworks */,
+				A4B7B89921AF121E009968BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4B7B89D21AF121E009968BA /* PBXTargetDependency */,
+			);
+			name = TimpeTests;
+			productName = TimpeTests;
+			productReference = A4B7B89B21AF121E009968BA /* TimpeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4B7B8A521AF121E009968BA /* TimpeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B7B8B521AF121E009968BA /* Build configuration list for PBXNativeTarget "TimpeUITests" */;
+			buildPhases = (
+				A4B7B8A221AF121E009968BA /* Sources */,
+				A4B7B8A321AF121E009968BA /* Frameworks */,
+				A4B7B8A421AF121E009968BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4B7B8A821AF121E009968BA /* PBXTargetDependency */,
+			);
+			name = TimpeUITests;
+			productName = TimpeUITests;
+			productReference = A4B7B8A621AF121E009968BA /* TimpeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4B7B87F21AF121C009968BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mohanad Osman";
+				TargetAttributes = {
+					A4B7B88621AF121C009968BA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A4B7B89A21AF121E009968BA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A4B7B88621AF121C009968BA;
+					};
+					A4B7B8A521AF121E009968BA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A4B7B88621AF121C009968BA;
+					};
+				};
+			};
+			buildConfigurationList = A4B7B88221AF121C009968BA /* Build configuration list for PBXProject "Timpe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4B7B87E21AF121C009968BA;
+			productRefGroup = A4B7B88821AF121C009968BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4B7B88621AF121C009968BA /* Timpe */,
+				A4B7B89A21AF121E009968BA /* TimpeTests */,
+				A4B7B8A521AF121E009968BA /* TimpeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4B7B88521AF121C009968BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B7B89521AF121E009968BA /* LaunchScreen.storyboard in Resources */,
+				A4B7B89221AF121E009968BA /* Assets.xcassets in Resources */,
+				A4B7B89021AF121C009968BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B7B89921AF121E009968BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B7B8A421AF121E009968BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B7B88321AF121C009968BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B7B88D21AF121C009968BA /* ViewController.swift in Sources */,
+				A4B7B88B21AF121C009968BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B7B89721AF121E009968BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B7B8A021AF121E009968BA /* TimpeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B7B8A221AF121E009968BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B7B8AB21AF121E009968BA /* TimpeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4B7B89D21AF121E009968BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4B7B88621AF121C009968BA /* Timpe */;
+			targetProxy = A4B7B89C21AF121E009968BA /* PBXContainerItemProxy */;
+		};
+		A4B7B8A821AF121E009968BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4B7B88621AF121C009968BA /* Timpe */;
+			targetProxy = A4B7B8A721AF121E009968BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4B7B88E21AF121C009968BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4B7B88F21AF121C009968BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4B7B89321AF121E009968BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4B7B89421AF121E009968BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4B7B8AD21AF121E009968BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4B7B8AE21AF121E009968BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4B7B8B021AF121E009968BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHU34X7YA7;
+				INFOPLIST_FILE = Timpe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Timpe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4B7B8B121AF121E009968BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHU34X7YA7;
+				INFOPLIST_FILE = Timpe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Timpe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4B7B8B321AF121E009968BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHU34X7YA7;
+				INFOPLIST_FILE = TimpeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TimpeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timpe.app/Timpe";
+			};
+			name = Debug;
+		};
+		A4B7B8B421AF121E009968BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHU34X7YA7;
+				INFOPLIST_FILE = TimpeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TimpeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timpe.app/Timpe";
+			};
+			name = Release;
+		};
+		A4B7B8B621AF121E009968BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHU34X7YA7;
+				INFOPLIST_FILE = TimpeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TimpeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Timpe;
+			};
+			name = Debug;
+		};
+		A4B7B8B721AF121E009968BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHU34X7YA7;
+				INFOPLIST_FILE = TimpeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TimpeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Timpe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4B7B88221AF121C009968BA /* Build configuration list for PBXProject "Timpe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B7B8AD21AF121E009968BA /* Debug */,
+				A4B7B8AE21AF121E009968BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B7B8AF21AF121E009968BA /* Build configuration list for PBXNativeTarget "Timpe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B7B8B021AF121E009968BA /* Debug */,
+				A4B7B8B121AF121E009968BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B7B8B221AF121E009968BA /* Build configuration list for PBXNativeTarget "TimpeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B7B8B321AF121E009968BA /* Debug */,
+				A4B7B8B421AF121E009968BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B7B8B521AF121E009968BA /* Build configuration list for PBXNativeTarget "TimpeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B7B8B621AF121E009968BA /* Debug */,
+				A4B7B8B721AF121E009968BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4B7B87F21AF121C009968BA /* Project object */;
+}
